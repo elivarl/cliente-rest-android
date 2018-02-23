@@ -90,4 +90,9 @@ public class Libro
     public void setUpdated_at(String updated_at) {
         this.updated_at = updated_at;
     }
+
+    @Override
+    public String toString() {
+        return this.id+" "+this.nombre+" "+this.resumen+" "+this.npagina+" "+edicion+" "+this.autor+" "+this.precio+" "+this.created_at+" "+this.updated_at;
+    }
 }

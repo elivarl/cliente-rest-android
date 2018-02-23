@@ -10,7 +10,7 @@ import retrofit2.http.GET;
  */
 
 public interface ApiService {
-    public static final String URL="http://localhost/crudlaravel/public/";
+    public static final String URL="http://192.168.1.7:80/crudlaravel/public/";
 
     @GET("api/v1/libros")
     Call<List<Libro>>listaLibros();
